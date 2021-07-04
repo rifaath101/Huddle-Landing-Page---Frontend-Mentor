@@ -1,0 +1,372 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* Title section */
+
+#title {
+    background-image: url(./images/bg-hero-desktop.svg);
+    background-size: cover;
+    background-color: hsl(193, 100%, 96%);
+}
+
+/* Nav Bar */
+
+.header {
+    display: flex;
+}
+
+.logoDiv {
+    margin: 5%;
+}
+
+.firstBtnDiv {
+    margin-left: 55%;
+    margin-top: 4%;
+}
+
+.firstBtn {
+    color: hsl(192, 100%, 9%);
+    width: 250%;
+    height: 40%;
+    background: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow:1px 1px 20px 2px hsl(217, 0%, 83%); 
+    cursor: pointer;
+}
+
+.firstImg {
+    width: 90%;
+}
+
+.heading {
+    color: hsl(192, 100%, 9%);
+    margin-top: 15%;
+    margin-left: 5%;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.description {
+    margin-top: 4%;
+    margin-left: 5%;
+    color: hsl(192, 100%, 9%);
+}
+
+.pinkBtnDiv {
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+.pinkBtn {
+    background: hsl(322, 100%, 66%);
+    color: white;
+    border: 8px solid hsl(322, 100%, 66%);
+    border-radius: 25px;
+    width: 40%;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    height: 440%;
+    cursor: pointer;
+}
+
+/* Content Section */
+
+#main {
+    margin: 10% 5% 5% 5%;
+}
+
+.featureImg {
+    width: 90%;
+    margin-left: 15%;
+}
+
+.featureImg2 {
+    width: 90%;
+}
+
+.contentStyle {
+    margin: 5%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px 2px hsl(217, 0%, 83%);
+    padding: 4%;
+}
+
+.contentStyle2 {
+    margin: 5%;
+    border: 2px solid white;
+    box-shadow: 1px 1px 20px 2px hsl(217, 0%, 83%);
+    padding: 4%;
+}
+
+.featureHeader {
+    color:hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 20%;
+    font-size: 1.9em;
+}
+
+.featureHeader2 {
+    color:hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-top: 20%;
+    font-size: 1.9em;
+}
+
+.featureText2 {
+    color: hsl(208, 11%, 55%);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3%;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+.featureText {
+    color: hsl(208, 11%, 55%);
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 3%;
+    font-size: 1.3em;
+    font-weight: 500;
+}
+
+/* Cta Section */
+
+#cta {
+    margin: 10% 5% 5% 5%;
+
+}
+
+.CtaStyle {
+    margin-left: 10%;
+    margin-right: 10%;
+    border: 2px solid white;
+    border-radius: 2px;
+    text-align: center;
+    padding: 5%;
+}
+
+.ctaHeader {
+    color:hsl(192, 100%, 9%);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 5%;
+}
+
+.ctaBtn {
+    background: hsl(322, 100%, 66%);
+    color: white;
+    border: 8px solid hsl(322, 100%, 66%);
+    border-radius: 35px;
+    box-shadow: 1px 1px 20px 2px hsl(217, 0%, 83%); 
+    width: 40%;
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    height: 70px;
+    cursor: pointer;   
+}
+
+/* Footer Section */
+
+footer {
+    background: hsl(192, 100%, 9%);
+    color: white;
+}
+
+.footerLogo {
+    filter: brightness(0) invert(1);
+}
+
+.footerLogoDiv {
+    margin-bottom: 10%;
+}
+
+.icons {
+    flex-direction: column;
+}
+
+.firstColumn {
+    flex-direction: column;
+    width: 40%;
+}
+
+.footerStyle {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10%;
+    margin-left: 5%;
+}
+
+.space {
+    margin-right: 15px;
+}
+
+.location {
+    display: flex;
+}
+.locationText {
+    display: flex;
+    margin-right: 20%;
+    padding-right: 15%;
+}
+
+.firstLinks {
+    padding-right: 10%;
+    margin-top: 6%;
+}
+
+.secondLinks {
+    margin-right: 10%;
+    margin-top: 6%;
+    padding-left: 5%;
+}
+
+.thirdLinks {
+    display: flex;
+    margin-top: 6%;
+    margin-right: 20%;
+    padding-right: 5%;
+}
+
+.socials {
+    margin-right: 55%;
+    filter: brightness(0) invert(1);
+}
+
+/* Final Footer Section  */
+
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
+    padding-right: 5%;
+}
+
+/* Making it Responsive */
+
+@media (max-width: 1028px) {
+
+    /* Title Section */
+
+    #title {
+        margin-bottom: 40%;
+    }
+    .logoImg {
+        width: 100%;
+    }
+    .firstBtnDiv {
+        margin-top: 5%;
+        margin-right: 25%;
+        margin-left: 15%;
+    }
+    .firstBtn {
+        height: auto;
+    }
+    .heading {
+        text-align: center;
+    }
+    .description {
+        text-align: center;
+    }
+    .pinkBtnDiv {
+        margin-left: 18%;
+    }
+    .pinkBtn {
+        width: 80%;
+        height: auto;
+    }
+    .firstImg {
+        margin-top: 25%;
+        margin-left: 5%;
+    }
+
+    /* Content Section */
+
+    .contentStyle {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .featureHeader {
+        text-align: center;
+    }
+    .featureText {
+        text-align: center;
+    }
+    .featureImg {
+        margin-left: 5%;
+    }
+    .featureHeader2 {
+        text-align: center;
+    }
+    .featureText2 {
+        text-align: center;
+    }
+    .featureImg2 {
+        margin-left: 4%;
+    }
+
+    /* Cta Section */
+
+
+    .ctaHeader {
+        margin-right: 10%;
+        font-size: 2em;
+        margin-bottom: 15%;
+    }
+    .ctaBtn {
+        width: auto;
+    }
+
+    /* Footer Section */
+
+    .footerStyle {
+        flex-direction: column;
+    }
+    .footerLogoDiv {
+        margin-bottom: 30%;
+    }
+    .locationText {
+        margin-right: 1%;
+        padding-right: 1%;
+        width: 190%;
+    }
+    .spaceFooter {
+        width: 190%;    
+    }
+    .secondLinks {
+        padding-left: 0;
+        margin-top: 0;
+    }
+    .thirdLinks {
+        margin-left: 30%;
+        margin-bottom: 5%;
+    }
+    .socials {
+        margin-right: 16%;
+    }
+    .copyright {
+        justify-content: center;
+    }
+}
