@@ -336,10 +336,11 @@ footer {
         margin-bottom: 15%;
     }
     .ctaBtnDiv {
-        margin-right: 7%;
+        margin-right: 30%;
+        margin-left: 0;
     }
     .ctaBtn {
-        width: 110%;
+        width: 140%;
         font-size: 15px;
     }
 
