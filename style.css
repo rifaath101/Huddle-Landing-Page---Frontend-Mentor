@@ -335,8 +335,12 @@ footer {
         font-size: 2em;
         margin-bottom: 15%;
     }
+    .ctaBtnDiv {
+        margin-right: 7%;
+    }
     .ctaBtn {
-        width: auto;
+        width: 110%;
+        font-size: 15px;
     }
 
     /* Footer Section */
